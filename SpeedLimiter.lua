@@ -5,7 +5,7 @@ local brake = 0
 extras = ac.INIConfig.onlineExtras():mapSection('EXTRA_TWEAKS', {
     -- default values if no values are set
     MAX_SPEED_LIMIT = 500,
-    BRAKE_TO = 499
+    BRAKE_TO = 499,
     BRAKE_FORCE = 0
   })
 
@@ -24,7 +24,7 @@ function checkSpeed()
             brake = 1
             -- force Clutch, Break and Throttle
             physics.forceUserClutchFor(0.1, 0)
-            physics.forceUserBrakesFor(0.1,0.2)
+            physics.forceUserBrakesFor(0.1,extras.BRAKE_FORCE)
             physics.forceUserThrottleFor(0.1,0)
 
             -- Print a message to the console

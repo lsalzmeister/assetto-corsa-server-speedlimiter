@@ -28,5 +28,6 @@ If you are interested in learning CSP lua scripting check out https://github.com
 
 And if you are interested in why someone would need a script to limit someones speed, (and you are German speaking) check out the twitch and youtube accounts below. There are virtual tractor races with a max allowed speed of 73 km/h.
 
-Youtube: https://www.youtube.com/watch?v=_5eUh-WZ9Aw
-Twitch: https://www.twitch.tv/tractorracer
+Links to tractorracer76
+- Youtube: https://www.youtube.com/watch?v=_5eUh-WZ9Aw
+- Twitch: https://www.twitch.tv/tractorracer

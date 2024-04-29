@@ -1,0 +1,1 @@
+This is a modified version of the script that has fixed values and does not read MAX_SPEED, ... from the .ini file.
